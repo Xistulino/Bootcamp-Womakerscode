@@ -1,0 +1,61 @@
+.colorido{ /*apenas as classes serão estilizadas*/
+   color: orange 
+}
+
+#paragrafo{  /*Aparenas o id será estilizado*/
+    color: blue
+}
+
+*{   /* esse * fará com que toda a pagina esteja colorida*/
+    color: purple
+}
+
+main h3{
+    color:green
+}
+
+.exemplo:hover{
+    background-color: brown
+}
+
+.teste:focus{
+    background-color: blueviolet;
+}
+
+.test:active{
+    background-color: aqua;
+}
+
+li:first-child{
+    color:rgb(12, 228, 156)
+}
+
+li:last-child{
+    color:chocolate
+}
+
+li:nth-child(4){
+    color:darkcyan
+}
+
+li:nth-child(odd){
+    color:darkgoldenrod
+}
+
+li:nth-child(even){
+    color:darkred
+}
+
+.treino::after{
+    content: " - DEPOIS";
+}
+
+.treino::before{
+    content: "ANTES - ";
+}
+
+.medida{
+    width: 150px; /*largura*/
+    height: 150px; /*altura*/
+}
+

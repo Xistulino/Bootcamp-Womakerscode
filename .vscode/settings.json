@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./3- Orientação a objetos/Modulo e namespace"
+    ]
+}
